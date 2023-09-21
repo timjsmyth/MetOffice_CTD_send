@@ -26,14 +26,23 @@ in the header that are required:
 *END*
 
 The required fields for the correct operation of the code are (in order)
+
 #name 0 = timeS: Time, Elapsed [seconds]
+
 #name 1 = depSM: Depth [salt water, m]
+
 #name 2 = prDM: Pressure, Digiquartz [db] 
+
 #name 3 = t090C: Temperature [ITS-90, deg C]
+
 #name 4 = t190C: Temperature, 2 [ITS-90, deg C]
+
 #name 5 = c0S/m: Conductivity [S/m]
+
 #name 6 = c1S/m: Conductivity, 2 [S/m]
+
 #name 7 = sal00: Salinity, Practical [PSU] 
+
 #name 8 = sal11: Salinity, Practical, 2 [PSU] 
 
 together with a flag (field 10).
