@@ -1,0 +1,7 @@
+#NCOF script execution for the checking of new files
+0 * * * * /users/soc/NCOF/ctd2met.sh >> /users/soc/NCOF/log/ctd2met.log 2>&1
+
+#stop the ctd2met.log file getting too big - delete every day at 23:30
+30 23 * * * /bin/rm /users/soc/NCOF/log/ctd2met.log
+
+
